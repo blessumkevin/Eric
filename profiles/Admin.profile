@@ -9305,18 +9305,18 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>copado__User_Story__c-User Story Layout %28Unmanaged%29</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__User_Story__c-User Story Layout %28Unmanaged%29</layout>
-        <recordType>copado__User_Story__c.copado__User_Story</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__User_Story__c-User Story Layout %28Unmanaged%29</layout>
         <recordType>copado__User_Story__c.copado__Investigation</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>copado__User_Story__c-User Story Layout %28Unmanaged%29</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__User_Story__c-User Story Layout %28Unmanaged%29</layout>
         <recordType>copado__User_Story__c.copado__Bug</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__User_Story__c-User Story Layout %28Unmanaged%29</layout>
+        <recordType>copado__User_Story__c.copado__User_Story</recordType>
     </layoutAssignments>
     <objectPermissions>
         <allowCreate>true</allowCreate>
