@@ -3480,6 +3480,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Dino__c.Height__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Event.Description</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -9303,15 +9308,15 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>copado__User_Story__c-User Story Layout %28Unmanaged%29</layout>
+        <recordType>copado__User_Story__c.copado__User_Story</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__User_Story__c-User Story Layout %28Unmanaged%29</layout>
         <recordType>copado__User_Story__c.copado__Investigation</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>copado__User_Story__c-User Story Layout %28Unmanaged%29</layout>
         <recordType>copado__User_Story__c.copado__Bug</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__User_Story__c-User Story Layout %28Unmanaged%29</layout>
-        <recordType>copado__User_Story__c.copado__User_Story</recordType>
     </layoutAssignments>
     <objectPermissions>
         <allowCreate>true</allowCreate>
@@ -9455,6 +9460,15 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
         <object>DataUsePurpose</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>Dino__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
