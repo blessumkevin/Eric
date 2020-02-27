@@ -152,6 +152,17 @@
     <enableSearch>false</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>New_Hire__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>New Hire</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Onboarding_Objects</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
     <label>Onboarding Object</label>
     <nameField>
         <label>Onboarding Object Name</label>
