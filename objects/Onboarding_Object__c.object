@@ -153,6 +153,14 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <fields>
+        <fullName>Employee_Number__c</fullName>
+        <displayFormat>E-{0000}</displayFormat>
+        <externalId>false</externalId>
+        <label>Employee Number</label>
+        <trackTrending>false</trackTrending>
+        <type>AutoNumber</type>
+    </fields>
+    <fields>
         <fullName>New_Hire__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <externalId>false</externalId>
